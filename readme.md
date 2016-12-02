@@ -19,8 +19,9 @@ throw new SimplError({
 const SimplError = require('simplerror')
 
 class DatabaseError extends SimplError {
-    constructor() {
-        this.name = 'DatabaseError'
+    constructor(opts) {
+      super(opts)
+      this.name = 'DatabaseError'
     }
 }
 ```
