@@ -19,13 +19,14 @@
     "url": "https://github.com/morrelinko/node-simplerror/issues"
   },
   "homepage": "https://github.com/morrelinko/node-simplerror#readme",
-    "devDependencies": {
+  "devDependencies": {
     "eslint": "^3.11.1",
     "eslint-config-standard": "^6.2.1",
     "eslint-plugin-html": "^1.7.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^2.0.1",
     "mocha": "^3.2.0",
+    "should": "^11.1.1",
     "sinon": "^1.17.6"
   }
 }
